@@ -1,0 +1,81 @@
+ /* App.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4; /* Light grey background */
+  color: #333; /* Dark grey text */
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  color: #4a4a4a; /* Grey header text */
+  margin: 0;
+  padding: 10px 0;
+  background-color: #dcdcdc; /* Light grey background for header */
+}
+
+video, img {
+  border: 5px solid #4a4a4a; /* Grey border */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+p {
+  font-size: 1rem;
+}
+
+.result-container {
+  background-color: #ffffff; /* White background for results */
+  border: 1px solid #e1e1e1; /* Light grey border */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.result-container h2 {
+  color: #6a0dad; /* Purple header text in results section */
+  margin-bottom: 10px;
+}
+
+.result-container h3 {
+  color: #4a4a4a; /* Grey sub-header text in results section */
+}
+
+.highlight {
+  background-color: #e8e8e8; /* Light grey background for highlighted text */
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.Toastify__toast {
+  background-color: #6a0dad; /* Purple background for toast messages */
+  color: #ffffff; /* White text */
+}
+
+.Toastify__toast--error {
+  background-color: #d9534f; /* Red background for error messages */
+}
+
+button {
+  background-color: #6a0dad; /* Purple background for buttons */
+  color: #ffffff; /* White text */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin: 5px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #5a0b9f; /* Darker purple on hover */
+}
